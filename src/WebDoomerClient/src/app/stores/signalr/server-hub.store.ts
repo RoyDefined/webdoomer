@@ -29,7 +29,7 @@ export class ServerHubStore extends ComponentStore<ServerHubStoreState> {
             tap(() => this.setLoading(true)),
             switchMap(
                 () =>
-                    new Observable((subscriber) => {
+                    new Observable<void>((subscriber) => {
                         const builder = new HubConnectionBuilder().withUrl(this.baseUrl).withAutomaticReconnect();
                         this._hubConnection = builder.build();
                         this._hubConnection

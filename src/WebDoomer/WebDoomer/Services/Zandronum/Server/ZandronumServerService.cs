@@ -95,7 +95,7 @@ internal class ZandronumServerService : IZandronumServerService, IDisposable
 				.Write(protocolType, flagset0, flagset1);
 
 			var resultEnumerable = this.GetServersDataAsync(buffer, packet, socket, stopwatch, cancellationToken);
-			await foreach(var result in resultEnumerable)
+			await foreach(var result in resultEnumerable.ConfigureAwait(false))
 			{
 				bag.Add(result);
 			}

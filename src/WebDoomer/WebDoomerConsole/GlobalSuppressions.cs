@@ -10,3 +10,4 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("Usage", "CA2254:Template should be a static expression")]
 [assembly: SuppressMessage("Performance", "CA1812:Avoid uninstantiated internal classes")]
 [assembly: SuppressMessage("Design", "CA1002:Do not expose generic lists")]
+[assembly: SuppressMessage("Style", "IDE0130:Namespace does not match folder structure")]

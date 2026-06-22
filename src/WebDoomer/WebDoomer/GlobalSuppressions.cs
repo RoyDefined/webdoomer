@@ -12,3 +12,5 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("Design", "CA1002:Do not expose generic lists")]
 [assembly: SuppressMessage("Design", "CA1028:Enum Storage should be Int32")]
 [assembly: SuppressMessage("Performance", "CA1822:Mark members as static")]
+[assembly: SuppressMessage("Style", "IDE0130:Namespace does not match folder structure")]
+[assembly: SuppressMessage("Performance", "CA1873:Avoid potentially expensive logging")]

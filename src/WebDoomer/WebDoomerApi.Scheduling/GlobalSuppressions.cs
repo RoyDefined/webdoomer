@@ -6,3 +6,5 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("Performance", "CA1848:Use the LoggerMessage delegates")]
 [assembly: SuppressMessage("Performance", "CA1812:Avoid uninstantiated internal classes")]
 [assembly: SuppressMessage("Design", "CA1031:Do not catch general exception types")]
+[assembly: SuppressMessage("Style", "IDE0130:Namespace does not match folder structure")]
+[assembly: SuppressMessage("Performance", "CA1873:Avoid potentially expensive logging")]

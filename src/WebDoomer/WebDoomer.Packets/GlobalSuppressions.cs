@@ -6,3 +6,5 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("Style", "IDE0032:Use auto property")]
 [assembly: SuppressMessage("Performance", "CA1822:Mark members as static")]
 [assembly: SuppressMessage("Performance", "CA1819:Properties should not return arrays")]
+[assembly: SuppressMessage("Style", "IDE0130:Namespace does not match folder structure")]
+[assembly: SuppressMessage("Style", "IDE0130:Namespace does not match folder structure")]
