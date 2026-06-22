@@ -1,6 +1,6 @@
 
 <div align="center">
-	<img src="https://github.com/RoyDefined/WebDoomer/blob/main/files/logosmall.png?raw=true" />
+	<img src="https://github.com/RoyDefined/WebDoomer/blob/dev/files/logosmall.png?raw=true" />
 </div>
  
 <div align="center">
